@@ -1,3 +1,5 @@
+#reverse an array 
+
 def reverseArray(arr):
     n=len(arr)
 
