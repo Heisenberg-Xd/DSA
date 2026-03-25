@@ -1,4 +1,4 @@
-#Stock Buy and Sell (Max one transaction)
+#Stock Buy and Sell ...Multi transaction
 
 def MaxMultiProfit(prices):
     res=0
@@ -11,5 +11,6 @@ def MaxMultiProfit(prices):
 
 if __name__ == "__main__":
     price=[230,430,120,100,800,760]
+
 
 print(MaxMultiProfit(price))
