@@ -9,8 +9,10 @@ def MaxMultiProfit(prices):
 
     return res
 
+
+
 if __name__ == "__main__":
-    price=[230,430,120,100,800,760]
+    price=[230,430,120,100,800]
 
 
 print(MaxMultiProfit(price))

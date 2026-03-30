@@ -1,4 +1,4 @@
-#check if there exists a pair whose sum equals the target
+#
 
 def twosums(arr,target):
     n=len(arr)
