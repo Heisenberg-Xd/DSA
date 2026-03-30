@@ -20,3 +20,8 @@ if __name__ == "__main__":
 
     for i in range(NewArray):
         print(arr[i],end="  ")
+
+
+
+
+        
