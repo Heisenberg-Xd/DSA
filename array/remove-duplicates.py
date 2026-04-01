@@ -13,6 +13,8 @@ def removeDuplicate(arr):
 
     return idx
 
+
+
 if __name__ == "__main__":
     arr=[21,21,22,22,22,23,24,25,25,25,25,25,26,27,28,28]
 
