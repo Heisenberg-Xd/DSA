@@ -1,14 +1,14 @@
-#
+#Two sum question
 
 def twosums(arr,target):
-    n=len(arr)
+     n=len(arr)
 
-    for i in range(n):
-        for j in range(i+1,n):
-            if arr[i]+arr[j] == target:
-                return True
+     for i in range(n):
+         for j in range(i+1,n):
+              if arr[i]+arr[j] == target:
+                    return True
         
-    return False
+     return False
 
 if __name__=="__main__":
     arr=[1,2,3,4,5,6,7,8,9]
@@ -19,3 +19,5 @@ if twosums(arr,target):
 else:
     print ("false")
         
+
+
